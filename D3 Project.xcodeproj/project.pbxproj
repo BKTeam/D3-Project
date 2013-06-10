@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90AAA7A01765FCCB00692214 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90AAA79F1765FCCB00692214 /* Cocoa.framework */; };
+		90AAA7AA1765FCCB00692214 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90AAA7A81765FCCB00692214 /* InfoPlist.strings */; };
+		90AAA7AE1765FCCB00692214 /* D3_Project.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AAA7AD1765FCCB00692214 /* D3_Project.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		90AAA79C1765FCCB00692214 /* D3 Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "D3 Project.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90AAA79F1765FCCB00692214 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		90AAA7A21765FCCB00692214 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		90AAA7A31765FCCB00692214 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		90AAA7A41765FCCB00692214 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		90AAA7A71765FCCB00692214 /* D3 Project-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "D3 Project-Info.plist"; sourceTree = "<group>"; };
+		90AAA7A91765FCCB00692214 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		90AAA7AB1765FCCB00692214 /* D3 Project-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "D3 Project-Prefix.pch"; sourceTree = "<group>"; };
+		90AAA7AC1765FCCB00692214 /* D3_Project.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = D3_Project.h; sourceTree = "<group>"; };
+		90AAA7AD1765FCCB00692214 /* D3_Project.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = D3_Project.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90AAA7981765FCCB00692214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AAA7A01765FCCB00692214 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90AAA7921765FCCB00692214 = {
+			isa = PBXGroup;
+			children = (
+				90AAA7A51765FCCB00692214 /* D3 Project */,
+				90AAA79E1765FCCB00692214 /* Frameworks */,
+				90AAA79D1765FCCB00692214 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90AAA79D1765FCCB00692214 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90AAA79C1765FCCB00692214 /* D3 Project.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90AAA79E1765FCCB00692214 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90AAA79F1765FCCB00692214 /* Cocoa.framework */,
+				90AAA7A11765FCCB00692214 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90AAA7A11765FCCB00692214 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90AAA7A21765FCCB00692214 /* AppKit.framework */,
+				90AAA7A31765FCCB00692214 /* CoreData.framework */,
+				90AAA7A41765FCCB00692214 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		90AAA7A51765FCCB00692214 /* D3 Project */ = {
+			isa = PBXGroup;
+			children = (
+				90AAA7AC1765FCCB00692214 /* D3_Project.h */,
+				90AAA7AD1765FCCB00692214 /* D3_Project.m */,
+				90AAA7A61765FCCB00692214 /* Supporting Files */,
+			);
+			path = "D3 Project";
+			sourceTree = "<group>";
+		};
+		90AAA7A61765FCCB00692214 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90AAA7A71765FCCB00692214 /* D3 Project-Info.plist */,
+				90AAA7A81765FCCB00692214 /* InfoPlist.strings */,
+				90AAA7AB1765FCCB00692214 /* D3 Project-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		90AAA7991765FCCB00692214 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		90AAA79B1765FCCB00692214 /* D3 Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90AAA7B11765FCCB00692214 /* Build configuration list for PBXNativeTarget "D3 Project" */;
+			buildPhases = (
+				90AAA7971765FCCB00692214 /* Sources */,
+				90AAA7981765FCCB00692214 /* Frameworks */,
+				90AAA7991765FCCB00692214 /* Headers */,
+				90AAA79A1765FCCB00692214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "D3 Project";
+			productName = "D3 Project";
+			productReference = 90AAA79C1765FCCB00692214 /* D3 Project.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90AAA7931765FCCB00692214 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "BK Team";
+			};
+			buildConfigurationList = 90AAA7961765FCCB00692214 /* Build configuration list for PBXProject "D3 Project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 90AAA7921765FCCB00692214;
+			productRefGroup = 90AAA79D1765FCCB00692214 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90AAA79B1765FCCB00692214 /* D3 Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90AAA79A1765FCCB00692214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AAA7AA1765FCCB00692214 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90AAA7971765FCCB00692214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AAA7AE1765FCCB00692214 /* D3_Project.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		90AAA7A81765FCCB00692214 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90AAA7A91765FCCB00692214 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90AAA7AF1765FCCB00692214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		90AAA7B01765FCCB00692214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		90AAA7B21765FCCB00692214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "D3 Project/D3 Project-Prefix.pch";
+				INFOPLIST_FILE = "D3 Project/D3 Project-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		90AAA7B31765FCCB00692214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "D3 Project/D3 Project-Prefix.pch";
+				INFOPLIST_FILE = "D3 Project/D3 Project-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90AAA7961765FCCB00692214 /* Build configuration list for PBXProject "D3 Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90AAA7AF1765FCCB00692214 /* Debug */,
+				90AAA7B01765FCCB00692214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90AAA7B11765FCCB00692214 /* Build configuration list for PBXNativeTarget "D3 Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90AAA7B21765FCCB00692214 /* Debug */,
+				90AAA7B31765FCCB00692214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90AAA7931765FCCB00692214 /* Project object */;
+}
