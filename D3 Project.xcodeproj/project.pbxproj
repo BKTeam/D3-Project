@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		90AAA7A01765FCCB00692214 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90AAA79F1765FCCB00692214 /* Cocoa.framework */; };
 		90AAA7AA1765FCCB00692214 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90AAA7A81765FCCB00692214 /* InfoPlist.strings */; };
-		90AAA7AE1765FCCB00692214 /* D3_Project.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AAA7AD1765FCCB00692214 /* D3_Project.m */; };
+		90AAA7AE1765FCCB00692214 /* D3.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AAA7AD1765FCCB00692214 /* D3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +21,8 @@
 		90AAA7A71765FCCB00692214 /* D3 Project-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "D3 Project-Info.plist"; sourceTree = "<group>"; };
 		90AAA7A91765FCCB00692214 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		90AAA7AB1765FCCB00692214 /* D3 Project-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "D3 Project-Prefix.pch"; sourceTree = "<group>"; };
-		90AAA7AC1765FCCB00692214 /* D3_Project.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = D3_Project.h; sourceTree = "<group>"; };
-		90AAA7AD1765FCCB00692214 /* D3_Project.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = D3_Project.m; sourceTree = "<group>"; };
+		90AAA7AC1765FCCB00692214 /* D3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = D3.h; sourceTree = "<group>"; };
+		90AAA7AD1765FCCB00692214 /* D3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = D3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +76,8 @@
 		90AAA7A51765FCCB00692214 /* D3 Project */ = {
 			isa = PBXGroup;
 			children = (
-				90AAA7AC1765FCCB00692214 /* D3_Project.h */,
-				90AAA7AD1765FCCB00692214 /* D3_Project.m */,
+				90AAA7AC1765FCCB00692214 /* D3.h */,
+				90AAA7AD1765FCCB00692214 /* D3.m */,
 				90AAA7A61765FCCB00692214 /* Supporting Files */,
 			);
 			path = "D3 Project";
@@ -166,7 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90AAA7AE1765FCCB00692214 /* D3_Project.m in Sources */,
+				90AAA7AE1765FCCB00692214 /* D3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
